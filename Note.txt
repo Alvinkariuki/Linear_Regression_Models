@@ -1,0 +1,16 @@
+IMPORTANT !!!
+
+Kindly note that from the various implementations of gradient descent, the theta
+values tend to remain the same
+
+Concretely, possibly for this dataset, the gradient descent algorithm used does
+not matter, and the variation in
+theta values are too miniscule to make much of an impact in predicting the continuous
+prose of new input examples
+
+
+Ideally the results from an off-shelf advanced optimization gradient descent algorithm
+yield the following results
+      ~The advanced optimization will be provided by SCipy  which is a python library that allows for
+      optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing,
+      ODE solvers and other tasks common in science and engineering

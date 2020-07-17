@@ -1,0 +1,14 @@
+~ Given a dataset, we will exploit its contents using Univariate Linear regression (i.e one feature for (x))
+  The implementations will seek to import a dataset and from there we will use various methods to 
+  Minimize its theta values to obtain an optimal value that best fits our dataset 
+
+```````````````NORMAL EQUATION````````````````
+
+**Matrix Form of Normal Equation**
+    ~ Adding bias column to a scalar matrix 
+        X = np.column_stack([np.ones(len(X)), X])
+    
+    NOTE: Changing the dimensionality of y (i.e.  y = np.reshape(y, (len(y), 1))) yeilds a better
+          Cost function that seems more sensible and less in comparison to a y vector without this 
+          explicit dimensionality defined.
+    
